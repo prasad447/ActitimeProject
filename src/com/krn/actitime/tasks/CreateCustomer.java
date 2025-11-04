@@ -16,7 +16,7 @@ public class CreateCustomer extends BaseClass{
 	     String   desc=lib.getExcelData("CreateCustomer", 1, 1);
 		
 		 
-	    cc.clickOnTask(driver);
+	    
 		
 		driver.findElement(By.xpath("//div[@class='addNewButton']")).click();
 		 
